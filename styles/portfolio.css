@@ -96,10 +96,19 @@ nav a {
 }
 
 /* Main section css goes here */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 /* About section css goes here */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
 }
