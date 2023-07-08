@@ -1,6 +1,20 @@
-/* shared font */
+/* common shared styles */
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section-desc {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
 
 /* nav related css */
@@ -76,6 +90,16 @@ nav a {
     font-size: 18px;
     color: #757575;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
+}
+
+/* Main section css goes here */
+/* About section css goes here */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
 }
